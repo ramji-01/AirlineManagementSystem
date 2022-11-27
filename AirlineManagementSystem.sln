@@ -15,13 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirlineManagement.Tests", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirlineManagement.Services", "AirlineManagement.Services\AirlineManagement.Services.csproj", "{B8C740BF-A672-44A3-AFE6-C5F160281E6B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{85902DEB-4BDD-4F40-A3F0-53030DED35FB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{D5185734-8A40-411B-B478-8937A93AB886}"
-	ProjectSection(SolutionItems) = preProject
-		build.yml = build.yml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,9 +48,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D5185734-8A40-411B-B478-8937A93AB886} = {85902DEB-4BDD-4F40-A3F0-53030DED35FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {847AAB89-F916-4D96-9127-D38F92E90066}
